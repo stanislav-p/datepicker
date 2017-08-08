@@ -1,4 +1,5 @@
 # Datepicker
 ### Instruction to start:
 
-* Run ```npm install``` and then ```gulp build```
+* Run ```npm install``` in terminal
+* Run ```gulp build```
