@@ -1,0 +1,39 @@
+$head:    rgb(4, 177, 193);
+$body:    rgb(253, 253, 191);
+$today:   rgb(255, 255, 55);
+
+.datepicker {
+  font-family: 'Roboto', sans-serif;
+  margin: 10% auto 0;
+  text-align: center;
+
+  .datepicker_head {
+    background: $head;
+    td {
+      padding: 12px;
+    }
+  }
+
+  .datepicker_body {
+    background: $body;
+
+    td {
+      padding: 12px;
+
+      &:nth-child(6),
+      &:last-child {
+        color: rgb(255, 0, 0);
+      }
+    }
+  }
+
+  .today {
+    background-color: $today;
+    font-weight: 600;
+  }
+
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
